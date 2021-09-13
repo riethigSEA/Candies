@@ -4,7 +4,7 @@ public class CandyCount {
 
     public static void main(String[] args){
         //Scanner input = new Scanner(System.in);
-        double money= 24, price = 1.2;
+        double money= 12, price = 1.2;
         int candies = 0;
         //System.out.println("Input Money you have: ");
         //money = input.nextDouble();
