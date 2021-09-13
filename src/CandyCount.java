@@ -1,20 +1,24 @@
+//import java.util.Scanner;
+
 public class CandyCount {
 
     public static void main(String[] args){
-        double money = 12.4, price = 1.2, pricedifference;
+        //Scanner input = new Scanner(System.in);
+        double money= 24, price = 1.2;
         int candies = 0;
-
+        //System.out.println("Input Money you have: ");
+        //money = input.nextDouble();
         if(money > 0 && price > 0) {
-            pricedifference = money - price;
-            while(pricedifference > 0){
+
+            while(money - price >= 0){
                 candies++;
-                money = pricedifference;
+                money = money - price;
+
             }
         }
         else{
-            System.out.println("you don't have any money!");
+            System.out.println("you don't have any money left!");
         }
-        System.out.println("your current money amount: " + money);
         System.out.println("current amount of candies you own: " + candies);
     }
 }
