@@ -1,5 +1,5 @@
 //import java.util.Scanner;
-
+//test
 public class CandyCount {
 
     public static void main(String[] args){
