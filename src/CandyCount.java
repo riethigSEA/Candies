@@ -20,5 +20,6 @@ public class CandyCount {
             System.out.println("you don't have any money left!");
         }
         System.out.println("current amount of candies you own: " + candies);
+        //test
     }
 }
